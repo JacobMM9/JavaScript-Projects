@@ -20,9 +20,14 @@ var food = "pizza", color = "orange", Name = "Jakey"; // showing you can make a 
 
 document.write(Name);
 
-document.write(4 + 4);
+document.write(4 + 4); //this is my expression
 
-var Sent1("This is the beginning of the string");
+var Sent1 = ("This is the beginning of the string");
 
-var Sent2("and this is the end of the string");
+var Sent2 = ("and this is the end of the string");
 
+document.write(Sent1 + Sent2);
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
