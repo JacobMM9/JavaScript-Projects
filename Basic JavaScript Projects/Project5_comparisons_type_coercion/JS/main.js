@@ -20,7 +20,7 @@ document.write("<br>" + (12 > 3)); // true
 document.write("<br>" + (12 < 4) +"<br>"); // false
 document.write(7 > 3); // true
 
-console.log(5 + 2); // shows 7 in console through the webpage but not on the doc
+console.log(5 + 2); // shows 7 in console through the console but not on the doc
 
 console.log(100 < 4);// shows false in the console
 
@@ -43,9 +43,10 @@ document.write("red" == "red" || 10 > 2); // using OR, will show true
 document.write(12 == 2 || 100 < 99); // using OR, will show false
 
 document.write("<br> Using NOT operator: ")
-document.write(!(12 > 6));
+
+document.write(!(12 > 6)); // Using NOT function this is true but will display false
 
 function not_Function(){
-    document.getElementById("Not").innerHTML = !(30 < 2);
+    document.getElementById("Not").innerHTML = !(30 < 2); // Using NOT, is false but will display true
 }
 
