@@ -17,7 +17,7 @@ function get_date() {
 function age() {
     var age = 18
     if (age => 18) {
-        document.getElementById("fish_purchase").innerHTML = "you can buy a fish!";
+        document.getElementById("fish_purchase").innerHTML = "you can buy a fish!"; // if criteria is met will display this string in the "fish pruchase" id
     }
 }   
 
@@ -35,14 +35,14 @@ function Score_Function(){
 function Time_function() {
     var Time = new Date().getHours();
     var Reply;
-    if (Time < 12 == Time > 0) {
+    if (Time < 12 == Time > 0) { // if time is less that 12 AND more than 0
         Reply = "It is morning time!";
     }
-    else if (Time >= 12 == Time < 18) {
+    else if (Time >= 12 == Time < 18) { // if time is greater than or equal to 12 AND less than 18
         Reply = "It is afternoon.";
     }
-    else {
+    else { // all other situations
         Reply = "It is evening time.";
     }
-    document.getElementById("Time_of_day").innerHTML = Reply; // replay shoud be Replay im teting to debug.
+    document.getElementById("Time_of_day").innerHTML = Reply; // this is setting the Reply to equal the "time_of_day id to display result"
 }
