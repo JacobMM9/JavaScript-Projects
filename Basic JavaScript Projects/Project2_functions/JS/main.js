@@ -1,5 +1,5 @@
 function myStyle(){
-    document.getElementById("H1style").style.color = "green"
+    document.getElementById("H1style").style.color = "green";
     document.getElementById("H2style").style.color = "red";
     myStyle = document.getElementById("demo");
     myStyle.style.color= "orange";
